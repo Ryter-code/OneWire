@@ -11,7 +11,9 @@ void setup() {
 
 void loop() {
   ow.platform_init();
-  ow.print("Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 Test123 ");
-  ow.print("TestABC TestABC TestABC TestABC TestABC TestABC TestABC TestABC TestABC TestABC TestABC TestABC ");
+  ow.print("Test123");
+  ow.print("TestABC");
+  ow.println("Test123");
+  ow.println("TestABC");
   while(1);
 }
